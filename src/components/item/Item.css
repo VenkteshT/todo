@@ -1,0 +1,45 @@
+.item {
+  border: 1px gray solid;
+  padding: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 1px 3px 5px 2px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+
+.item:hover {
+  transform: scale(1.02);
+}
+
+#check {
+  background: red;
+}
+
+.item img {
+  height: 20px;
+  transition: all 0.3s ease-in;
+  width: 20px;
+}
+
+.edit {
+  position: absolute;
+  right: 43px;
+}
+.delete {
+  position: absolute;
+  right: 10px;
+}
+
+.item input[type="checkbox"] {
+  border: none;
+  height: 20px;
+}
+
+.item img:hover {
+  transform: scale(1.4);
+}
